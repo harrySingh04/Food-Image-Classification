@@ -4,3 +4,14 @@
 #### 2. The second part of the project is to take any arbitrary image with different food servings on a table<br/>
 ####    and then mark sections of theimage containing food. 
 
+## Test Data
+#### 1.We have collected 100 images each of Entrée, Dessert and Salad from various cuisines from publicly available images.
+#### 2.We have used 100 random images of empty plates, and other images as negative images to train the Scikit-Learn classifier for negative cases.
+
+
+## Classifying images of food using Scikit-Learn
+
+####  1.Supervised Learning – SVM/SVC classifier was used as the supervised learner to train and predict randomized sample images of Entrée, Salad and Dessert.
+
+##### 2.Unsupervised Learning – KMeans classifier was used as the unsupervised learner to train the same images samples without labels.
+ 
