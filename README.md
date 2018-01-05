@@ -15,3 +15,16 @@
 
 ##### 2.Unsupervised Learning – KMeans classifier was used as the unsupervised learner to train the same images samples without labels.
  
+## Image PreProcessing
+
+#### We have used various image processing techniques before training and testing the classifiers.
+
+#### 1.Image Resizing – All training sample images were resized to 80x80 pixels.
+
+#### 2.Binary Thresholding – All pixel values greater than a given threshold value were set to a fixed value. This was used to mask backgrounds in images that is not part of food.
+
+#### 3.Canny - function used for edge detection
+
+#### 4.Contour Detection – was used to separate out different dishes in a given dining table image with different food servings.
+
+#### 5.HOG – Feature descriptor to convert image data into histogram data.
